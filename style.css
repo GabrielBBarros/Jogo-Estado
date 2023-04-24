@@ -1,0 +1,730 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+nav a:hover{
+	font-size: 20px;
+
+}
+
+body{
+    width: 100%;
+    background-attachment: fixed;
+    background-color: rgb(21, 21, 71);
+    color: antiquewhite;
+    font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+    
+}
+nav{
+    background-color: rgb(41, 41, 158);
+}
+
+
+footer{
+	background-color: rgb(41, 41, 158);
+	padding: 20px 0px 20px 0px;
+	position: relative;
+}
+footer h4{
+	
+	font-size: 1.2em;
+	text-transform: uppercase;
+
+}
+footer .navbar-nav a{
+	color: white;
+	font-size: 1em;
+
+
+}
+footer .navbar-nav a:hover{
+	
+	color: black;
+	text-decoration: none;
+	
+}
+footer ul{
+	list-style: none;
+}
+footer ul li {
+	float: left;
+	margin: 0px 5px;
+ }
+
+ #tentativa{
+    
+    margin-bottom: 5px;
+ }
+ #imagem{
+    margin-top: 5px;
+ }
+
+ input{
+	border-radius: 30px; 
+	height: 75px; 
+	width: 350px; 
+	font-size: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	align-items: center;
+ }
+
+ #imagem2{
+	height: 250px;
+	width: 300px;
+ }
+
+ #imagem4{
+	height: 250px;
+	width: 300px;
+	background-color: aliceblue;
+	border-radius: 25px;
+ }
+
+ #imagem5{
+	height: 250px;
+	width: 300px;
+	background-color: aliceblue;
+	border-radius: 25px;
+ }
+
+ #imagem6{
+	height: 180px;
+	width: 200px;
+ }
+
+
+
+ 
+ #ACRE{
+	background-image: url('bandeiras/Bandeira-Acre.png');
+    background-size: cover;
+	height: 100px; 
+	width: 150px;
+	transition: transform 0.2s ease-in-out;
+ }
+
+#ACRE:HOVER{
+	transform: scale(1.5);
+}
+
+ #ALAGOAS{
+	background-image: url('bandeiras/Bandeira-Alagoas.png');
+    background-size: cover;
+	height: 100px; 
+	width: 150px;
+	transition: transform 0.2s ease-in-out;
+	padding: 0%;
+ }
+
+ #ALAGOAS:HOVER{
+	transform: scale(1.5);
+ }
+
+ #AMAPÁ{
+	background-image: url('bandeiras/Bandeira-Amapá.png');
+    background-size: cover;
+	height: 100px; 
+	width: 150px;
+	transition: transform 0.2s ease-in-out;
+ }
+
+ #AMAPÁ:HOVER{
+	transform: scale(1.5);
+ }
+
+ #AMAZONAS{
+	background-image: url('bandeiras/Bandeira-Amazonas.png');
+    background-size: cover;
+	height: 100px; 
+	width: 150px;
+	transition: transform 0.2s ease-in-out;
+ }
+ #AMAZONAS:HOVER{
+	transform: scale(1.5);
+ }
+
+ #BAHIA{
+	background-image: url('bandeiras/Bandeira-Bahia.png');
+    background-size: cover;
+	height: 100px; 
+	width: 150px;
+	transition: transform 0.2s ease-in-out;
+ }
+ #BAHIA:HOVER{
+	transform: scale(1.5);
+ }
+
+ #CEARÁ{
+	background-image: url('bandeiras/Bandeira-Ceara.png');
+    background-size: cover;
+	height: 100px; 
+	width: 150px;
+	transition: transform 0.2s ease-in-out;
+ }
+ #CEARÁ:HOVER{
+	transform: scale(1.5);
+ }
+
+ #DISTRITO_FEDERAL{
+	background-image: url('bandeiras/Bandeira-Distrito-Federal.png');
+    background-size: cover;
+	height: 100px; 
+	width: 150px;
+	transition: transform 0.2s ease-in-out;
+ }
+ #DISTRITO_FEDERAL:HOVER{
+	transform: scale(1.5);
+ }
+
+ #ESPÍRITO_SANTO{
+	background-image: url('bandeiras/Bandeira-Espírito-Santo.png');
+    background-size: cover;
+	height: 100px; 
+	width: 150px;
+	transition: transform 0.2s ease-in-out;
+ }
+ #ESPÍRITO_SANTO:HOVER{
+	transform: scale(1.5);
+ }
+
+ #GOIÁS{
+	background-image: url('bandeiras/Bandeira-Goias.png');
+    background-size: cover;
+	height: 100px; 
+	width: 150px;
+	transition: transform 0.2s ease-in-out;
+ }
+ #GOIÁS:HOVER{
+	transform: scale(1.5);
+ }
+
+ #MARANHÃO{
+	background-image: url('bandeiras/Bandeira-Maranhão.png');
+    background-size: cover;
+	height: 100px; 
+	width: 150px;
+	transition: transform 0.2s ease-in-out;
+ }
+ #MARANHÃO:HoVER{
+	transform: scale(1.5);
+ }
+
+ #MATO_GROSSO{
+	background-image: url('bandeiras/Bandeira-Mato-Grosso.png');
+    background-size: cover;
+	height: 100px; 
+	width: 150px;
+	transition: transform 0.2s ease-in-out;
+ }
+ #MATO_GROSSO:HOVER{
+	transform: scale(1.5);
+ }
+
+ #MATO_GROSSO_DO_SUL{
+	background-image: url('bandeiras/Bandeira-Mato-Grosso-do-Sul.png');
+    background-size: cover;
+	height: 100px; 
+	width: 150px;
+	transition: transform 0.2s ease-in-out;
+}
+#MATO_GROSSO_DO_SUL:HOVER{
+	transform: scale(1.5);
+}
+
+ #MINAS_GERAIS{
+	background-image: url('bandeiras/Bandeira-Minas-Gerais.png');
+    background-size: cover;
+	height: 100px; 
+	width: 150px;
+	transition: transform 0.2s ease-in-out;
+ }
+ #MINAS_GERAIS:HOVER{
+	transform: scale(1.5);
+ }
+
+ #PARÁ{
+	background-image: url('bandeiras/Bandeira-Pará.png');
+    background-size: cover;
+	height: 100px; 
+	width: 150px;
+	transition: transform 0.2s ease-in-out;
+ }
+ #PARÁ:HOVER{
+	transform: scale(1.5);
+ }
+
+ #PARAÍBA{
+	background-image: url('bandeiras/Bandeira-Paraíba.png');
+    background-size: cover;
+	height: 100px; 
+	width: 150px;
+	transition: transform 0.2s ease-in-out;
+ }
+ #PARAÍBA:HOVER{
+	transform: scale(1.5);
+ }
+
+ #PARANÁ{
+	background-image: url('bandeiras/Bandeira-Paraná.png');
+    background-size: cover;
+	height: 100px; 
+	width: 150px;
+	transition: transform 0.2s ease-in-out;
+ }
+ #PARANÁ:HOVER{
+	transform: scale(1.5);
+ }
+
+ #PERNAMBUCO{
+	background-image: url('bandeiras/Bandeira-Pernambuco.png');
+    background-size: cover;
+	height: 100px; 
+	width: 150px;
+	transition: transform 0.2s ease-in-out;
+ }
+ #PERNAMBUCO:HOVER{
+	transform: scale(1.5);
+ }
+
+ #PIAUÍ{
+	background-image: url('bandeiras/Bandeira-Piauí.png');
+    background-size: cover;
+	height: 100px; 
+	width: 150px;
+	transition: transform 0.2s ease-in-out;
+ }
+#PIAUÍ:HOVER{
+	transform: scale(1.5);
+}
+
+ #RIO_DE_JANEIRO{
+	background-image: url('bandeiras/Bandeira-Rio-de-Janeiro.png');
+    background-size: cover;
+	height: 100px; 
+	width: 150px;
+	transition: transform 0.2s ease-in-out;
+ }
+#RIO_DE_JANEIRO:HOVER{
+	transform: scale(1.5);
+}
+
+ #RIO_GRANDE_DO_NORTE{
+	background-image: url('bandeiras/Bandeira-Rio-Grande-do-Norte.png');
+    background-size: cover;
+	height: 100px; 
+	width: 150px;
+	transition: transform 0.2s ease-in-out;
+ }
+#RIO_GRANDE_DO_NORTE:HOVER{
+	transform: scale(1.5);
+}
+
+ #RIO_GRANDE_DO_SUL{
+	background-image: url('bandeiras/Bandeira-Rio-Grande-do-Sul.png');
+    background-size: cover;
+	height: 100px; 
+	width: 150px;
+	transition: transform 0.2s ease-in-out;
+ }
+#RIO_GRANDE_DO_SUL:hover{
+	transform: scale(1.5);
+}
+
+ #RONDÔNIA{
+	background-image: url('bandeiras/Bandeira-Rondonia.png');
+    background-size: cover;
+	height: 100px; 
+	width: 150px;
+	transition: transform 0.2s ease-in-out;
+ }
+#RONDÔNIA:HOVER{
+	transform: scale(1.5);
+}
+
+ #RORAIMA{
+	background-image: url('bandeiras/Bandeira-Roraima.png');
+    background-size: cover;
+	height: 100px; 
+	width: 150px;
+	transition: transform 0.2s ease-in-out;
+ }
+#RORAIMA:HOVER{
+	transform: scale(1.5);
+}
+
+ #SANTA_CATARINA{
+	background-image: url('bandeiras/Bandeira-Santa-Catarina.png');
+    background-size: cover;
+	height: 100px; 
+	width: 150px;
+	transition: transform 0.2s ease-in-out;
+ }
+ #SANTA_CATARINA:HOVER{
+	transform: scale(1.5);
+ }
+
+ #SÃO_PAULO{
+	background-image: url('bandeiras/Bandeira-São-Paulo.png');
+    background-size: cover;
+	height: 100px; 
+	width: 150px;
+	transition: transform 0.2s ease-in-out;
+ }
+#SÃO_PAULO:HOVER{
+	transform: scale(1.5);
+}
+
+ #SERGIPE{
+	background-image: url('bandeiras/Bandeira-Sergipe.png');
+    background-size: cover;
+	height: 100px; 
+	width: 150px;
+	transition: transform 0.2s ease-in-out;
+ }
+#SERGIPE:HOVER{
+	transform: scale(1.5);
+}
+
+ #TOCANTINS{
+	background-image: url('bandeiras/Bandeira-Tocantins.png');
+    background-size: cover;
+	height: 100px; 
+	width: 150px;
+	transition: transform 0.2s ease-in-out;
+ }
+ #TOCANTINS:HOVER{
+	transform: scale(1.5);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width: 600px) {
+
+	#imagem4{
+		display: none;
+	 }
+	 #imagem6{
+		display: none;
+	 }
+	#ACRE{
+		background-image: url('bandeiras/Bandeira-Acre.png');
+		background-size: cover;
+		height: 70px; 
+		width: 90px;
+		transition: transform 0.2s ease-in-out;
+	 }
+	
+	#ACRE:HOVER{
+		transform: scale(1.5);
+	}
+	
+	 #ALAGOAS{
+		background-image: url('bandeiras/Bandeira-Alagoas.png');
+		background-size: cover;
+		height: 70px; 
+		width: 100px;
+		transition: transform 0.2s ease-in-out;
+		padding: 0%;
+	 }
+	
+	 #ALAGOAS:HOVER{
+		transform: scale(1.5);
+	 }
+	
+	 #AMAPÁ{
+		background-image: url('bandeiras/Bandeira-Amapá.png');
+		background-size: cover;
+		height: 70px; 
+		width: 90px;
+		transition: transform 0.2s ease-in-out;
+	 }
+	
+	 #AMAPÁ:HOVER{
+		transform: scale(1.5);
+	 }
+	
+	 #AMAZONAS{
+		background-image: url('bandeiras/Bandeira-Amazonas.png');
+		background-size: cover;
+		height: 70px; 
+		width: 90px;
+		transition: transform 0.2s ease-in-out;
+	 }
+	 #AMAZONAS:HOVER{
+		transform: scale(1.5);
+	 }
+	
+	 #BAHIA{
+		background-image: url('bandeiras/Bandeira-Bahia.png');
+		background-size: cover;
+		height: 70px; 
+		width: 90px;
+		transition: transform 0.2s ease-in-out;
+	 }
+	 #BAHIA:HOVER{
+		transform: scale(1.5);
+	 }
+	
+	 #CEARÁ{
+		background-image: url('bandeiras/Bandeira-Ceara.png');
+		background-size: cover;
+		height: 70px; 
+		width: 90px;
+		transition: transform 0.2s ease-in-out;
+	 }
+	 #CEARÁ:HOVER{
+		transform: scale(1.5);
+	 }
+	
+	 #DISTRITO_FEDERAL{
+		background-image: url('bandeiras/Bandeira-Distrito-Federal.png');
+		background-size: cover;
+		height: 70px; 
+		width: 90px;
+		transition: transform 0.2s ease-in-out;
+	 }
+	 #DISTRITO_FEDERAL:HOVER{
+		transform: scale(1.5);
+	 }
+	
+	 #ESPÍRITO_SANTO{
+		background-image: url('bandeiras/Bandeira-Espírito-Santo.png');
+		background-size: cover;
+		height: 70px; 
+		width: 90px;
+		transition: transform 0.2s ease-in-out;
+	 }
+	 #ESPÍRITO_SANTO:HOVER{
+		transform: scale(1.5);
+	 }
+	
+	 #GOIÁS{
+		background-image: url('bandeiras/Bandeira-Goias.png');
+		background-size: cover;
+		height: 70px; 
+		width: 90px;
+		transition: transform 0.2s ease-in-out;
+	 }
+	 #GOIÁS:HOVER{
+		transform: scale(1.5);
+	 }
+	
+	 #MARANHÃO{
+		background-image: url('bandeiras/Bandeira-Maranhão.png');
+		background-size: cover;
+		height: 70px; 
+		width: 90px;
+		transition: transform 0.2s ease-in-out;
+	 }
+	 #MARANHÃO:HoVER{
+		transform: scale(1.5);
+	 }
+	
+	 #MATO_GROSSO{
+		background-image: url('bandeiras/Bandeira-Mato-Grosso.png');
+		background-size: cover;
+		height: 70px; 
+		width: 90px;
+		transition: transform 0.2s ease-in-out;
+	 }
+	 #MATO_GROSSO:HOVER{
+		transform: scale(1.5);
+	 }
+	
+	 #MATO_GROSSO_DO_SUL{
+		background-image: url('bandeiras/Bandeira-Mato-Grosso-do-Sul.png');
+		background-size: cover;
+		height: 70px; 
+		width: 90px;
+		transition: transform 0.2s ease-in-out;
+	}
+	#MATO_GROSSO_DO_SUL:HOVER{
+		transform: scale(1.5);
+	}
+	
+	 #MINAS_GERAIS{
+		background-image: url('bandeiras/Bandeira-Minas-Gerais.png');
+		background-size: cover;
+		height: 70px; 
+		width: 90px;
+		transition: transform 0.2s ease-in-out;
+	 }
+	 #MINAS_GERAIS:HOVER{
+		transform: scale(1.5);
+	 }
+	
+	 #PARÁ{
+		background-image: url('bandeiras/Bandeira-Pará.png');
+		background-size: cover;
+		height: 70px; 
+		width: 90px;
+		transition: transform 0.2s ease-in-out;
+	 }
+	 #PARÁ:HOVER{
+		transform: scale(1.5);
+	 }
+	
+	 #PARAÍBA{
+		background-image: url('bandeiras/Bandeira-Paraíba.png');
+		background-size: cover;
+		height: 70px; 
+		width: 90px;
+		transition: transform 0.2s ease-in-out;
+	 }
+	 #PARAÍBA:HOVER{
+		transform: scale(1.5);
+	 }
+	
+	 #PARANÁ{
+		background-image: url('bandeiras/Bandeira-Paraná.png');
+		background-size: cover;
+		height: 70px; 
+		width: 90px;
+		transition: transform 0.2s ease-in-out;
+	 }
+	 #PARANÁ:HOVER{
+		transform: scale(1.5);
+	 }
+	
+	 #PERNAMBUCO{
+		background-image: url('bandeiras/Bandeira-Pernambuco.png');
+		background-size: cover;
+		height: 70px; 
+		width: 90px;
+		transition: transform 0.2s ease-in-out;
+	 }
+	 #PERNAMBUCO:HOVER{
+		transform: scale(1.5);
+	 }
+	
+	 #PIAUÍ{
+		background-image: url('bandeiras/Bandeira-Piauí.png');
+		background-size: cover;
+		height: 70px; 
+		width: 90px;
+		transition: transform 0.2s ease-in-out;
+	 }
+	#PIAUÍ:HOVER{
+		transform: scale(1.5);
+	}
+	
+	 #RIO_DE_JANEIRO{
+		background-image: url('bandeiras/Bandeira-Rio-de-Janeiro.png');
+		background-size: cover;
+		height: 70px; 
+		width: 90px;
+		transition: transform 0.2s ease-in-out;
+	 }
+	#RIO_DE_JANEIRO:HOVER{
+		transform: scale(1.5);
+	}
+	
+	 #RIO_GRANDE_DO_NORTE{
+		background-image: url('bandeiras/Bandeira-Rio-Grande-do-Norte.png');
+		background-size: cover;
+		height: 70px; 
+		width: 90px;
+		transition: transform 0.2s ease-in-out;
+	 }
+	#RIO_GRANDE_DO_NORTE:HOVER{
+		transform: scale(1.5);
+	}
+	
+	#RIO_GRANDE_DO_SUL{
+		background-image: url('bandeiras/Bandeira-Rio-Grande-do-Sul.png');
+		background-size: cover;
+		height: 70px; 
+		width: 90px;
+		transition: transform 0.2s ease-in-out;
+	 }
+	#RIO_GRANDE_DO_SUL:HOVER{
+		transform: scale(1.5);
+	}
+	
+	 #RONDÔNIA{
+		background-image: url('bandeiras/Bandeira-Rondonia.png');
+		background-size: cover;
+		height: 70px; 
+		width: 90px;
+		transition: transform 0.2s ease-in-out;
+	 }
+	#RONDÔNIA:HOVER{
+		transform: scale(1.5);
+	}
+	
+	 #RORAIMA{
+		background-image: url('bandeiras/Bandeira-Roraima.png');
+		background-size: cover;
+		height: 70px; 
+		width: 90px;
+		transition: transform 0.2s ease-in-out;
+	 }
+	#RORAIMA:HOVER{
+		transform: scale(1.5);
+	}
+	
+	 #SANTA_CATARINA{
+		background-image: url('bandeiras/Bandeira-Santa-Catarina.png');
+		background-size: cover;
+		height: 70px; 
+		width: 90px;
+		transition: transform 0.2s ease-in-out;
+	 }
+	 #SANTA_CATARINA:HOVER{
+		transform: scale(1.5);
+	 }
+	
+	 #SÃO_PAULO{
+		background-image: url('bandeiras/Bandeira-São-Paulo.png');
+		background-size: cover;
+		height: 70px; 
+		width: 90px;
+		transition: transform 0.2s ease-in-out;
+	 }
+	#SÃO_PAULO:HOVER{
+		transform: scale(1.5);
+	}
+	
+	 #SERGIPE{
+		background-image: url('bandeiras/Bandeira-Sergipe.png');
+		background-size: cover;
+		height: 70px; 
+		width: 90px;
+		transition: transform 0.2s ease-in-out;
+	 }
+	#SERGIPE:HOVER{
+		transform: scale(1.5);
+	}
+	
+	 #TOCANTINS{
+		background-image: url('bandeiras/Bandeira-Tocantins.png');
+		background-size: cover;
+		height: 70px; 
+		width: 90px;
+		transition: transform 0.2s ease-in-out;
+	 }
+	 #TOCANTINS:HOVER{
+		transform: scale(1.5);
+	 }
+  }
